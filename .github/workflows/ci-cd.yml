@@ -42,4 +42,4 @@ jobs:
       run: docker tag react-app:latest <your_aws_account_id>.dkr.ecr.$AWS_REGION.amazonaws.com/react-app:latest
     
     - name: Push Docker image to ECR
-      run: docker push <your_aws_account_id>.dkr.ecr.$AWS_REGION.amazonaws.com/react-app:latest
+      run: docker push 058264290906.dkr.ecr.$AWS_REGION.amazonaws.com/react-app:latest
